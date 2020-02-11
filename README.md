@@ -37,7 +37,7 @@ NoMethodError:
 
 Looks like our test is expecting to test a method called `#introduction`. Let's define that method in `lib/introduction.rb`.
 
-```ruby
+```bash
 # lib/introduction.rb
 
 def introduction
@@ -72,12 +72,11 @@ to take in any arguments, the `for 0` part of the error message.
 
 Let's fix that now:
 
-```ruby
 # lib/introduction.rb
 
 def introduction(name)
 end
-```
+
 
 Run the test again and you'll see the following:
 
